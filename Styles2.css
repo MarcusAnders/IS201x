@@ -1,0 +1,62 @@
+/* Stylesheet (Styles2.css) */
+body {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the header */
+.header {
+    margin-bottom: 20px;
+}
+
+/* Style the h1 element */
+h1 {
+    color: rgb(7, 57, 84);
+}
+
+/* Center the ordered list */
+ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 0;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 20px;
+}
+
+/* Style the embedded unordered lists */
+ol ul {
+    margin-top: 10px;
+}
+
+/* Style images */
+img {
+    display: block;
+    margin: 10 auto;
+    height: 200px;
+}
+
+/* Style the return to top link */
+a[href="#top"] {
+    display: block;
+    margin-top: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+    margin: 0 10px; /* Add space between images (adjust as needed) */
+    height: 200px;
+}
